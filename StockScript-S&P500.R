@@ -191,7 +191,7 @@ registerDoSNOW(cl)
 require(foreach)
 
 system.time(
-  storeSandP <- foreach(i = 1:nrow(compTable),.packages = c('XML','RHTMLForms','RCurl','plyr')) %dopar% 
+  storeSandP <- foreach(i = 1:nrow(newCompTable),.packages = c('XML','RHTMLForms','RCurl','plyr')) %dopar% 
 {
   
   try(getSAndPProps(newCompTable[i,1]))
