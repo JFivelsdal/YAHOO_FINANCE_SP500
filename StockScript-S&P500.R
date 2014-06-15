@@ -197,7 +197,7 @@ system.time(
 {
   
   try(getSAndPProps(newCompTable[i,1]))
-  #C(compTable[i,1])
+  
   
 }
 )
