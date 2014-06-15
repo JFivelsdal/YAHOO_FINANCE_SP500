@@ -17,8 +17,6 @@ library(reshape2)
 
 library(xlsx)
 
-#Sys.setenv(JAVA_HOME='C:/Program Files/Java/jre7') #to run rJava on my computer
-
 
 sourceSAndP <- "http://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 
