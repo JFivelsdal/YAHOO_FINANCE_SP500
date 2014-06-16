@@ -1,7 +1,7 @@
 
 #Program Name: StockScript-S&P500
 #Description: Creates a time stamped spreadsheet of S&P 500 stock data retrieved from Yahoo Finance
-#Created by: Jon Fivelsdal
+#Created by: Jonathan Fivelsdal
 
 library(RCurl)
 
